@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TUGAS-BIKIN-FORM</title>
+    <link rel="stylesheet" href="CSS-My-HTML.css">
 </head>
 <body>
-    <title>Ini File Pertama </title>
-    <h1>Ini Tugas Pertama Di TEFA</h1>
+ <div class="wrapper">
+    <div class ="tittle">
+       FORM BIODATA
+    </div>
+    <form>
+        <br>
+        <div class="Image">
+            <img src="Miria.png" alt="queen miria" width="160" height="200">
+        </div>
+        <br>
+        <div class="Nama">
+            <label for="Nama"> Nama</label>
+            <input 
+            type="text" 
+            id="Nama"
+            placeholder="Nama"
+            >
+            <br>
+        </div>
+        <br>
+        <div class="Email">
+            <label for="Email"> Email</label>
+            <input 
+            type="text" 
+            id="Email"
+            placeholder="Email"
+            >
+            <br>
+        </div>
+        <br>
+        <div class="Prodi">Pilihan Prodi
+            <select name="Pilih Prodi" id="Prodi" >
+                <option value="PTI">PTI</option>
+                <option value="PTE">PTE</option>
+                <option value="TI">TI</option>
+                <option value="Animasi">Animasi</option>
+            </select>
+            </div>
+        <br>
+            <div class="Kelamin">Jenis Kelamin
+                <br>
+                <input type="radio" id="Pria" name="Kelamin">
+                <label for="Pria">Pria</label>
+                <input type="radio" id="Perempuan" name="Kelamin">
+                <label for="Perempuan">Perempuan</label>
+            </div>
+            <div class="Submit">
+                <p>Submit</p>
+                
+            </div>
+    </form>
+ </div>
 </body>
 </html>
