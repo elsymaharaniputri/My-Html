@@ -1,0 +1,81 @@
+.Container{
+    width: 1200px;
+    border: 2px solid salmon;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.Navbar {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 2px;
+    justify-content: space-between;
+}
+.Logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 2px;
+    align-items: center;
+}
+.Navbar div{
+    width: 80px;
+    height:30px;
+    background-color: white;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.Navbar div.Satu{order :1;}
+.Navbar div.Satu{order :2;}
+.Navbar div.Satu{order :3;}
+
+.Navbar div.Satu:hover{
+    background-color: rgb(255, 61, 94);
+    margin: 2px;
+    padding: 2px;
+    width: 80px;
+    height:30px;
+    border-radius: 5px;
+}
+.Navbar div.Dua:hover{
+    background-color: rgb(255, 61, 94);
+    margin: 2px;
+    padding: 2px;
+    width: 80px;
+    height:30px;
+    border-radius: 5px;
+}
+.Navbar div.Tiga:hover{
+    background-color: rgb(255, 61, 94);
+    margin: 2px;
+    padding: 2px;
+    width: 80px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.Content{
+    width: 1200px;
+    border: 2px solid salmon;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
